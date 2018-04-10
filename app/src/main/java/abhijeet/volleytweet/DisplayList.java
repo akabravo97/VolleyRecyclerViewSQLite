@@ -65,7 +65,7 @@ public class DisplayList extends AppCompatActivity {
                     recyclerView.setAdapter(adapter);
                     for (int i=0;i<infos1.size();i++){
                         try{
-                        myDataBase.execSQL("INSERT INTO COINS (coinName,coinHandle,CoinSymbol,tweet) VALUES('" + infos1.get(i).getCoin_name() + "','" + infos1.get(i).getCoin_handle() + "','" + infos1.get(i).getCoin_symbol() + "','" + "Not updated!!" + "');");
+                        myDataBase.execSQL("INSERT INTO COINS (coinName,coinHandle,CoinSymbol,tweet) VALUES('" + infos1.get(i).getCoin_name() + "','" + infos1.get(i).getCoin_handle() + "','" + infos1.get(i).getCoin_symbol() + "','" + infos1.get(i).getTweets() + "');");
                     }catch (Exception e){
                             e.printStackTrace();
                         }
