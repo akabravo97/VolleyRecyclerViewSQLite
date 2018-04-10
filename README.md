@@ -10,5 +10,6 @@
 
 # Known issues
 1.  ProgressDialog sometimes freezes when fetching data from internet
+      -Wait for sometime and data will be fetched automatically.
 # Download link
 <a href="https://drive.google.com/file/d/17eCO55NAgCdUXokgQpKAlTj-BX2dQVxP/view?usp=sharing">Download</a>
