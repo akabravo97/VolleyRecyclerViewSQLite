@@ -8,6 +8,7 @@
 7.  Option to get latest tweets or to fech from existing database implemented
 8.  Tweets are now stored in SQLite database.
 
-
+# VolleyRecyclerViewSQLite
+1.  ProgressDialog sometimes freezes when fetching data from internet
 # Download link
 <a href="https://drive.google.com/file/d/17eCO55NAgCdUXokgQpKAlTj-BX2dQVxP/view?usp=sharing">Download</a>
